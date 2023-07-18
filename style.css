@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://pbs.twimg.com/media/E3_guXtX0AUihWN.jpg");
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+header {
+    background-color: #253439
+}
+
+/* main */
+
+.main2 {
+    position: relative;
+    top: 5em;
+    z-index: 1;
+    width: 75%;
+    margin: 0 auto;
+    padding: 3em 5em 3.5em 5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 0 25px 25px 25px;
+    box-shadow: -2px -5px 10px 8px rgba(37, 52, 57, 0.2);
+
+}
+
+/* Fonte */
+.txt_lg_white {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.txt_md_white {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.txt_md_grey {
+    color: #bbbebc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.txt_lg_black {
+    color: #253439;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.txt_md_black {
+    color: #253439;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.txt_sm_black {
+    color: #253439;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    margin-top: 5em;
+}
+
+.footer_container {
+    margin: 0 auto;
+}
+
+.newsletter {
+    position: relative;
+    top: 5em;
+    z-index: 1;
+    width: 75%;
+    margin: 0 auto;
+    padding: 3em 5em 3.5em 5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 0 25px 25px 25px;
+    box-shadow: -2px -5px 10px 8px rgba(37, 52, 57, 0.2);
+}
+
+.newsletter h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #253439;
+    margin-bottom: 1em;
+}
+
+.newsletter img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.newsletter_form {
+    width: 45%;
+    margin-top: 0.75em;
+}
+
+
+.footer_content_container {
+    background-color: #253439;
+    padding: 7em 0 5em 0;
+}
+
+.footer_content {
+    position: relative;
+    top: 3em;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact>h1 {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.contact>i {
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0.75em;
+}
+
+.contact>p {
+    padding-top: 0.5em;
+}
+
+.footer_links {
+    list-style-type: none;
+}
+
+.footer_links li {
+    margin-top: 20px;
+}
+
+.footer_links h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer_links a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .newsletter {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2em;
+    }
+
+    .newsletter h1 {
+        font-size: 30px;
+    }
+
+    .newsletter_form {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .footer_content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_content_container {
+        padding: 4em 0 2em 0;
+    }
+
+    .contact,
+    .footer_links {
+        text-align: center;
+    }
+
+    .footer_links li {
+        margin-top: 10px;
+    }
+
+    .footer_links h3 {
+        font-size: 20px;
+    }
+
+    .footer_links a {
+        font-size: 16px;
+    }
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#btt {
+    color: white;
+    background-color: #253439;
+}
+
+.promo-title {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.promo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+#box {
+    background-color: #253439;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #box {     
+        width: 350px;
+    }
+  }
