@@ -252,3 +252,9 @@ header {
         width: 350px;
     }
   }
+
+@media screen and (max-width: 370px) {
+    #box {     
+        width: 90%;
+    }
+  }
