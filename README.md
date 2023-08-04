@@ -19,3 +19,7 @@ O site da agência de viagens oferece informações sobre destinos turísticos, 
 - `promoção.html`: Página com os pacotes de viagens disponíveis.
 - `contato.html`: Página entre em contato.
 - `style.css`: Estilo do site.
+  
+## Estrutura do Repositório
+
+Para visualizar o site acesse: https://lucaswhite1.github.io/agencia_de_viagem/SITE/index.html
